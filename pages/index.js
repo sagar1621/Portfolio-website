@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white dark:bg-gray-900 px-10 md:px-20 lg:px-40">
+      <main className="bg-white dark:bg-gray-900 px-5 md:px-20 lg:px-40">
         <section className="lg:min-h-[50vh] min-h-[40vh] ">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="text-xl text-black dark:text-white  font-burtons">SAGAR BIRADAR</h1>
@@ -298,7 +298,7 @@ export default function Home() {
           </div>
 
           {/* main project container */}
-          <div className="m-5 flex flex-col shadow p-4 space-y-7 max-w-full rounded-md">
+          <div className="m-2 flex flex-col shadow p-2 space-y-7 max-w-full rounded-md">
             {/* razorpay project */}
             <div className="flex flex-col md:flex-row space-x-7 m-3 shadow-md rounded-md p-5 justify-between">
               {/* left side */}
@@ -310,7 +310,7 @@ export default function Home() {
               </div>
               {/* right side */}
               <div className="md:w-2/3 w-full p-4 ">
-                <h2 className="text-3xl py-1 font-normal dark:text-white">
+                <h2 className="text-3xl text-black py-1 font-normal dark:text-white">
                   Razorpay Clone
                 </h2>
                 <h4 className="text-md dark:text-white pt-1  text-gray-800">
@@ -358,7 +358,7 @@ export default function Home() {
               </div>
               {/* right side */}
               <div className="md:w-2/3 w-full p-4">
-                <h2 className="text-3xl py-1 font-normal dark:text-white">
+                <h2 className="text-3xl text-black py-1 font-normal dark:text-white">
                   Goa Home Food Clone
                 </h2>
                 <h4 className="text-md dark:text-white pt-1  text-gray-800">
@@ -405,7 +405,7 @@ export default function Home() {
               </div>
               {/* right side */}
               <div className="md:w-2/3 w-full p-4">
-                <h2 className="text-3xl py-1 font-normal dark:text-white">
+                <h2 className="text-3xl text-black py-1 font-normal dark:text-white">
                   Character Count
                 </h2>
                 <h4 className="text-md dark:text-white pt-1  text-gray-800">
@@ -453,7 +453,7 @@ export default function Home() {
         </section>
 
         <section id="contact">
-          <div className="m-5 flex flex-col shadow p-4 space-y-7 max-w-full rounded-md">
+          <div className="m-5 mb-8 flex flex-col shadow p-4 space-y-7 max-w-full rounded-md">
             <div>
               <h2 className="text-3xl py-1 dark:text-white">Get in Touch</h2>
             </div>
