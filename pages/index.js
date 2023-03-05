@@ -100,13 +100,13 @@ export default function Home() {
             </a>
           </div>
           <div className="flex text-2xl justify-center gap-16 py-3 text-gray-600">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/sagar-biradar-673552211/">
               <AiFillLinkedin />
             </a>
-            <a href="#">
+            <a href="https://github.com/sagar1621">
               <AiFillGithub />
             </a>
-            <a href="#">
+            <a href="mailto:sagarbiradar0332@gmail.com">
               <SiGmail />
             </a>
           </div>
