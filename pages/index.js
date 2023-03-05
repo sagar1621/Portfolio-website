@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/Bs";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
