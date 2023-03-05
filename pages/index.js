@@ -74,7 +74,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className="cursor-poiinter text-2xl ml-8"
+                  className="cursor-pointer text-2xl ml-8"
                 />
               </li>
             </ul>
@@ -83,7 +83,7 @@ export default function Home() {
             <h2 className="text-5xl text-teal-600 py-2 font-medium md:text-6xl">
               Sagar Biradar
             </h2>
-            <h3 className="text-2xl py-2 text-black md:text-3xl dark:text-white">
+            <h3 className="text-black text-2xl py-2  md:text-3xl dark:text-white">
               Frontend Developer
             </h3>
             <p className="text-md dark:text-white leading-8 text-gray-800 py-5 md:text-xl mx-auto max-w-xl">
@@ -117,7 +117,7 @@ export default function Home() {
             <Image alt="profile-pic" src={image} layout="fill" objectFit="cover" />
           </div>
           <div className="  shadow-md p-5 mt-2 rounded-md">
-            <h3 className="text-3xl py-1 dark:text-white">About Me</h3>
+            <h3 className="text-3xl text-black py-1 dark:text-white">About Me</h3>
             <p className="text-md dark:text-white py-2 leading-8 text-gray-800">
               As a final year computer engineering student, I have honed my
               skills in{" "}
@@ -134,7 +134,7 @@ export default function Home() {
         </section>
 
         <section id="skills" className="space-y-5 mb-5 mt-7">
-          <h3 className="text-3xl py-1 dark:text-white">Skills</h3>
+          <h3 className="text-black text-3xl py-1 dark:text-white">Skills</h3>
           <div className="flex flex-wrap">
             <div className="m-4">
               <a
@@ -294,13 +294,13 @@ export default function Home() {
 
         <section id="projects" className="mx-auto">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
+            <h3 className="text-black text-3xl py-1 dark:text-white">Projects</h3>
           </div>
 
           {/* main project container */}
           <div className="m-5 flex flex-col shadow p-4 space-y-7 max-w-full rounded-md">
             {/* razorpay project */}
-            <div className="flex flex-col md:flex-row space-x-7 m-4 shadow-md rounded-md p-5 justify-between">
+            <div className="flex flex-col md:flex-row space-x-7 m-3 shadow-md rounded-md p-5 justify-between">
               {/* left side */}
               <div className="md:w-1/3 w-full self-center md:1/2">
                 <Image alt="razorpay-proj-img"
@@ -309,7 +309,7 @@ export default function Home() {
                 />
               </div>
               {/* right side */}
-              <div className="md:w-2/3 w-full ">
+              <div className="md:w-2/3 w-full p-4 ">
                 <h2 className="text-3xl py-1 font-normal dark:text-white">
                   Razorpay Clone
                 </h2>
@@ -348,7 +348,7 @@ export default function Home() {
               </div>
             </div>
             {/* goa home project */}
-            <div className="flex flex-col md:flex-row m-4 space-x-7 shadow-md rounded-md p-5 justify-between">
+            <div className="flex flex-col md:flex-row m-3 space-x-7 shadow-md rounded-md p-5 justify-between">
               {/* left side */}
               <div className="md:w-1/3 w-full self-center">
                 <Image alt="goahomefood-proj-img"
@@ -357,7 +357,7 @@ export default function Home() {
                 />
               </div>
               {/* right side */}
-              <div className="md:w-2/3 w-full">
+              <div className="md:w-2/3 w-full p-4">
                 <h2 className="text-3xl py-1 font-normal dark:text-white">
                   Goa Home Food Clone
                 </h2>
@@ -398,13 +398,13 @@ export default function Home() {
               </div>
             </div>
             {/* counter project */}
-            <div className="flex flex-col md:flex-row m-4 space-x-7 shadow-md rounded-md p-5 justify-between">
+            <div className="flex flex-col md:flex-row m-3 space-x-7 shadow-md rounded-md p-5 justify-between">
               {/* left side */}
               <div className="md:w-1/3 w-full self-center">
                 <Image alt="counter-proj-img" src={counter} className="h-full w-full object-contain" />
               </div>
               {/* right side */}
-              <div className="md:w-2/3 w-full">
+              <div className="md:w-2/3 w-full p-4">
                 <h2 className="text-3xl py-1 font-normal dark:text-white">
                   Character Count
                 </h2>
