@@ -380,7 +380,7 @@ export default function Home() {
                 <div className="p-3">
                   <a
                     className="text-teal-500 underline m-2"
-                    href="https://github.com/sagar1621/Goa-home-food"
+                    href="https://sagar-goahomefood.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -388,7 +388,7 @@ export default function Home() {
                   </a>
                   <a
                     className="text-teal-500 underline m-2"
-                    href="https://sagar-goahomefood.netlify.app/"
+                    href="https://github.com/sagar1621/Goa-home-food"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
