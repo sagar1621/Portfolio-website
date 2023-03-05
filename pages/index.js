@@ -83,7 +83,7 @@ export default function Home() {
             <h2 className="text-5xl text-teal-600 py-2 font-medium md:text-6xl">
               Sagar Biradar
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
+            <h3 className="text-2xl py-2 text-black md:text-3xl dark:text-white">
               Frontend Developer
             </h3>
             <p className="text-md dark:text-white leading-8 text-gray-800 py-5 md:text-xl mx-auto max-w-xl">
