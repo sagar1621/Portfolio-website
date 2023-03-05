@@ -135,8 +135,8 @@ export default function Home() {
 
         <section id="skills" className="space-y-5 mb-5 mt-7">
           <h3 className="text-black text-3xl py-1 dark:text-white">Skills</h3>
-          <div className="flex flex-wrap">
-            <div className="m-3">
+          <div className="flex flex-wrap justify-center md:justify-start">
+            <div className="m-4">
               <a
                 href="https://www.cprogramming.com/"
                 target="_blank"
